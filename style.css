@@ -2,4 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Sedan SC", serif;
+}
+
+:root {
+    --main-background: #1e40af;
+    --text-color: #dbeafe;
+    --nav-background: #bfdbfe;
+}
+
+body {
+    background-color: var(--main-background);
+    color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+}
+ 
+nav {
+    background-color: var(--nav-background);
 }
